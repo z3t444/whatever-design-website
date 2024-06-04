@@ -1,7 +1,7 @@
 import React from "react";
 const Card = ({ titleHeading, description, backgroundColor, borderRadius }: { image: string; titleHeading: string; description: string; backgroundColor?: string; borderRadius?: string }) => {
   return (
-    <div className="w-96 mx-auto h-60 rounded overflow-hidden mt-10 shadow-lg dark:shadow-2xl dark:shadow-neutral-900" style={{ backgroundColor: backgroundColor, borderRadius: borderRadius }}>
+    <div className="w-[470px] mx-auto h-60 rounded overflow-hidden mt-10 shadow-lg dark:shadow-2xl dark:shadow-neutral-900" style={{ backgroundColor: backgroundColor, borderRadius: borderRadius }}>
       <div className="p-10">
         <div title="forHeadingTextCard">
           <h1 className="text-xl font-bold">{titleHeading}</h1>

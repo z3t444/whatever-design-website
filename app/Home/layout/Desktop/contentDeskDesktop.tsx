@@ -8,11 +8,11 @@ import '../../../../styles/animation.css'
 export default function Content_Desk() {
   return (
     <>
-      <div className="flex items-center mt-20 gap-5 rounded-3xl">
-        <div className="bg-gradient-to-br from-[#1d1c20] via-neutral-950 to-black rounded-3xl p-7">
+      <div className="flex items-center mt-10 gap-5 rounded-3xl">
+        <div className="dark:bg-gradient-to-br dark:from-[#1d1c20] dark:via-neutral-950 dark:to-black bg-gradient-to-br from-neutral-200 to-neutral-300 rounded-3xl p-7">
           <header className="heading">
-            <h1 className="text-xl font-semibold">aesthetic and modern search menu</h1>
-            <p className="max-w-sm mt-3 text-sm">The design we created in the search menu kit can be integrated into various layout designs.</p>
+            <h1 className="text-xl dark:text-neutral-200 font-semibold">aesthetic and modern search menu</h1>
+            <p className="max-w-sm mt-3 dark:text-neutral-200 text-sm">The design we created in the search menu kit can be integrated into various layout designs.</p>
           </header>
 
           {/* search bar */}
@@ -27,10 +27,10 @@ export default function Content_Desk() {
           </div>
         </div>
         <div>
-          <div className="bg-gradient-to-br overflow-hidden from-[#1d1c20] via-neutral-950 to-black rounded-3xl p-7">
+          <div className="dark:bg-gradient-to-br dark:from-[#1d1c20] dark:via-neutral-950 dark:to-black bg-gradient-to-br from-neutral-200 to-neutral-300 rounded-3xl p-7">
             <header className="heading">
-              <h1 className="text-xl font-semibold">aesthetic and modern search menu</h1>
-              <p className="max-w-sm mt-3 text-sm">The design we created in the search menu kit can be integrated into various layout designs.</p>
+              <h1 className="text-xl  dark:text-neutral-200  font-semibold">aesthetic and modern search menu</h1>
+              <p className="max-w-sm  dark:text-neutral-200  mt-3 text-sm">The design we created in the search menu kit can be integrated into various layout designs.</p>
             </header>
 
             {/* date Asset */}

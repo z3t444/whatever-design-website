@@ -58,7 +58,7 @@ export default function Home() {
       </div>
 
       <section title="forFeatureSection">
-        <ul className="p-20 pl-14 pr-14 rounded-[45px] bg-transparent ">
+        <ul className="p-10 rounded-[45px] bg-transparent ">
           <div className="flex justify-center text-center mx-auto">
             <h1 className={title({ size: "sm" })}>
               <span>
@@ -66,9 +66,9 @@ export default function Home() {
               </span>
             </h1>
           </div>
-          <CardFeatureApp />
         </ul>
-        <div className="flex items-center mt-10 justify-center">
+        <CardFeatureApp />
+        <div className="flex items-center mt-20 justify-center">
           <h1 className="text-nuetral-200 text-lg tracking-wider font-medium">Available Components Kit</h1>
         </div>
         <ScreenFeature />

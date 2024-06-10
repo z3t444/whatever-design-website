@@ -3,7 +3,9 @@ import { Button } from "@nextui-org/react";
 import RightIconsSearch from "../../asset/RightIconsSearch";
 import Date from "../../asset/date.svg";
 import Image from "next/image";
-import '../../../../styles/animation.css'
+import "../../../../styles/animation.css";
+import SwitchButtonDesktop from "../../../../components/ContentDesk/SwitchButtonDesktop";
+import SwitchButtonMobile from "../../../../components/ContentDesk/SwitchButtonMobile";
 
 export default function Content_Desk() {
   return (

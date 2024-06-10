@@ -1,7 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import ContentDeskDesktop from './layout/Desktop/contentDeskDesktop'
-import ContentDeskMobile from './layout/Mobile/contentDeskMobile'
+import ContentDeskDesktop from "./layout/Desktop/contentDeskDesktop";
+import ContentDeskMobile from "./layout/Mobile/contentDeskMobile";
+import SwitchButtonDesktop from "@/components/ContentDesk/SwitchButtonDesktop";
+import SwitchButtonMobile from "@/components/ContentDesk/SwitchButtonMobile";
 
 const HeroSection: React.FC = () => {
   const [windowWidth, setWindowWidth] = useState(typeof window !== "undefined" ? window.innerWidth : 0);
@@ -34,10 +36,12 @@ const HeroSection: React.FC = () => {
       {viewType === "Desktop" ? (
         <div>
           <ContentDeskDesktop />
+          <SwitchButtonDesktop />
         </div>
       ) : (
         <div>
           <ContentDeskMobile />
+          <SwitchButtonMobile />
         </div>
       )}
     </div>

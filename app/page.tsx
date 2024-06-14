@@ -10,7 +10,7 @@ import Image from "next/image";
 import HeroApp from "./Home/hero";
 import CardFeatureApp from "./Home/cardFeature";
 import ScreenFeature from "./Home/screenFeature";
-import Content_Desk from "./Home/Content_Desk";
+import Content_Desk from "./Home/GridCardContent";
 
 // for icons imports
 import IdeaIcons from "./Home/asset/Idea.svg";

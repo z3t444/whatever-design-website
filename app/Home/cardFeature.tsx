@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import CardFeatureDesktop from './layout/Desktop/cardFeature'
-import CardFeatureMobile from './layout/Mobile/CardFeatureMobile'
+import CardFeatureDesktop from "./layout/Desktop/cardFeature";
+import CardFeatureMobile from "./layout/Mobile/CardFeatureMobile";
 
 const HeroSection: React.FC = () => {
   const [windowWidth, setWindowWidth] = useState(typeof window !== "undefined" ? window.innerWidth : 0);
@@ -33,11 +33,11 @@ const HeroSection: React.FC = () => {
     <div>
       {viewType === "Desktop" ? (
         <div>
-          <CardFeatureDesktop/>
+          <CardFeatureDesktop />
         </div>
       ) : (
         <div>
-          <CardFeatureMobile/>
+          <CardFeatureMobile />
         </div>
       )}
     </div>
